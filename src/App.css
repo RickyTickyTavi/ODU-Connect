@@ -1,0 +1,495 @@
+.Mymodal {
+  font-size: 24px;
+  color: black;
+}
+.Mymodal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding: 5px;
+}
+.Mymodal > .content {
+  width: 100%;
+  font-size: 18px;
+  text-align: left;
+  padding: 10px 5px;
+}
+.Mymodal > .profile {
+  width: 70%;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.Mymodal > .actions {
+  margin: auto;
+}
+.Mymodal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+}
+.Mymodal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.popup {  
+  position: fixed;  
+  width: 100%;  
+  height: 100%;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  margin: auto;  
+  background-color: rgba(0,0,0, 0.5);  
+}  
+.popup\_inner {  
+  position: absolute;  
+  left: 25%;  
+  right: 25%;  
+  top: 25%;  
+  bottom: 25%;  
+  margin: auto;  
+  border-radius: 20px;  
+  background: white;  
+}
+
+#nav {
+	width: 100%;
+	/* float: left; */
+	margin: 0 0 3em 0;
+	padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content:flex-end;
+}
+
+
+
+#nav li {
+  /* float: left;  */
+}
+
+#nav li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+		border-right: 1px solid #ccc; }
+
+#nav li a {
+		display: block;
+		padding: 8px 15px;
+		text-decoration: none;
+		font-weight: bold;
+		color: #069;
+    border-right: 1px solid #ccc; }
+
+#borderimg {
+  border:solid transparent;
+  padding:5px;
+  border-image: url(./images/Light_Blue.png) 30 round;
+  }
+
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Controls main profile info appearance */
+.profile{
+  font-size: 20px;
+  text-align: left;
+  width: 900px;
+  margin-left: 100px;
+}
+
+.profileAvatar{
+  max-width:40px;
+  height:auto;
+  display:inline-block;
+}
+
+.profileName{
+  display:inline-block;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.button-div{
+  display:inline-block;
+  padding: 5px 5px 5px 5px;
+
+}
+
+#contact-form{
+  text-align: left;
+  width: 75%;
+  margin: 0 auto
+}
+
+.about-height{
+  height: 27.5vh;
+}
+
+.form-editContainer{
+  margin-left:15%;
+  width: 1000px;
+}
+
+.form-address{
+  width: 500px;
+}
+
+.form-short{
+  display:inline-block;
+  width: 100px;
+  padding: 5px 5px 5px 5px;
+}
+
+.form-profile{
+  display:inline-block;
+  width: 300px;
+  padding: 5px 5px 5px 5px;
+}
+
+.form-keywords{
+  width: 600px;
+  padding: 5px 5px 5px 5px;
+}
+
+.login-center{
+  display:inline-block;
+  width:500px;
+}
+
+/* Controls keyword box appearance */
+.keywords{
+  background-color: #cccfcd;
+  border-color: #000;
+  width: 500px;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 5px 5px 5px 5px;
+}
+
+.keyword{
+  display:inline-block;
+  padding: 5px 0px 0px 5px;
+}
+
+/* contains balloons */
+.calendar {
+  display:inline-block;
+  width: 90%;
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* appearance of hover text */
+.customTheme {
+  text-align: left;
+  width: 300px;
+}
+
+/* contains balloons */
+.container {
+  display:inline-block;
+  width:200px;
+  height:450px;
+  position: relative;
+  text-align: center;
+  color: white;
+  left:20%;
+}
+
+.maxwide {
+  max-width: 1200px;
+  text-align: center;
+}
+
+/* centers text onto balloon */
+.centered {
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight:bold;
+  top: 22%;
+  left: 48%;
+  transform: translate(-35%, -65%);
+}
+
+/* Main Odu Colors */
+
+.monarchBlue {
+  background-color:#003057;
+}
+
+ .silverReign {
+  background-color: #828A8F;
+  color: #828A8F;
+}
+
+.skyBlue {
+  color: #98C5EA;
+}
+
+/* Complementary ODU colors*/
+
+.carrierMetal {
+  color: #404A5A;
+}
+
+.royalBlue {
+  color: #2B1ED9;
+}
+
+.bigBlue {
+  color: #202898;
+}
+
+.midnight {
+  color: #0A192D;
+}
+
+.coastalStorm {
+  color: #ACAAB4;
+}
+
+.azure {
+  color: #4348DD;
+}
+
+.denim {
+  color: #3658AD;
+}
+
+.highTide {
+  color: #164C6D;
+}
+
+.aluminum {
+  color: #E1EAF0;
+}
+
+.barryBlue {
+  color: #729BE6;
+}
+
+.hamptonBlue {
+  color: #4D89C1;
+}
+
+.waterside {
+  color: #2188A2;
+}
+
+.vanilla {
+  color: #FFFFFF;
+}
+
+.ussWisconsin {
+  color: #D6D5DA;
+}
+
+.eveningBreeze {
+  color: #63B9D6;
+}
+
+.seaFoam {
+  color: #20AEC5;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.aboutBox1 {
+  font-size: 125%;
+  border: 1px rgb(214, 213, 218);
+  background: rgb(152, 197, 234);
+  overflow: hidden;
+}
+
+.aboutBox2 {
+  font-size: 125%;
+  color: #fff;
+  background: rgb(130, 130, 143);
+  padding-right: 20px;
+  padding-left: 20px;
+  /* text-align: left; */
+  overflow: hidden;
+}
+
+.keyFeatures {
+  font-size: 125%;
+  border: 1px rgb(214, 213, 218);
+  color: #fff;
+  background: rgb(0, 48, 87);
+  overflow: hidden;
+}
+
+.userManual {
+  font-size: 125%;
+  color: #fff;
+  padding-bottom: 50px;
+  background: rgb(152, 197, 234);
+  overflow: hidden;
+  height: 100%;
+}
+
+.headerE {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+  overflow: hidden;
+}
+
+.tableFeatures{
+  border-collapse: collapse;
+  width: 100%;
+
+}
+
+.pd-l{
+  font-size: medium;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.pd-m{
+  font-size: medium;
+  text-align: center;
+}
+
+.pd-r{
+  font-size: medium;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.cf{
+  height: 100%;
+  width: 100%;
+}
+
+html,body{
+  height: 100%;
+}
+
+.filterDrop{
+  margin: 15px;
+  float: left !important;
+}
+
+.balloons{
+  margin-top: 20px;
+}
+
+.manual-link{
+  padding-top: 20px;
+  /* padding-bottom: 40px; */
+}
+
+.list-par{
+  columns: 3;
+  text-align: center;
+  display: inline-block;
+  width:  100%;
+  list-style-type: none;
+  
+}
+
+.keywordE{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+  overflow: hidden;
+}
+
+.opp-ri{
+
+  text-align: right;
+
+}
+
+.opp-le{
+  text-align: left;
+
+}
+
+.headerEM{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 175%;
+  color: #fff;
+  text-shadow: 0 2px 2px #000;
+  overflow: hidden;
+}
+
+.keyFeaturesB{
+    font-size: 125%;
+    border: 1px rgb(214, 213, 218);
+    color: #fff;
+    background: rgb(0, 48, 87);
+    overflow: hidden;
+}
+
+.user-man{
+  margin-bottom: 20px;
+}

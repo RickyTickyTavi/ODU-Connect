@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/~411yello/oduconnectdev/static/css/main.9a58775c.chunk.css",
+    "main.js": "/~411yello/oduconnectdev/static/js/main.5f2679ef.chunk.js",
+    "main.js.map": "/~411yello/oduconnectdev/static/js/main.5f2679ef.chunk.js.map",
+    "runtime-main.js": "/~411yello/oduconnectdev/static/js/runtime-main.429fe1f5.js",
+    "runtime-main.js.map": "/~411yello/oduconnectdev/static/js/runtime-main.429fe1f5.js.map",
+    "static/css/2.67123b20.chunk.css": "/~411yello/oduconnectdev/static/css/2.67123b20.chunk.css",
+    "static/js/2.afea2be1.chunk.js": "/~411yello/oduconnectdev/static/js/2.afea2be1.chunk.js",
+    "static/js/2.afea2be1.chunk.js.map": "/~411yello/oduconnectdev/static/js/2.afea2be1.chunk.js.map",
+    "index.html": "/~411yello/oduconnectdev/index.html",
+    "precache-manifest.5e66b0a8f39b08e50807cfcaef79264b.js": "/~411yello/oduconnectdev/precache-manifest.5e66b0a8f39b08e50807cfcaef79264b.js",
+    "service-worker.js": "/~411yello/oduconnectdev/service-worker.js",
+    "static/css/2.67123b20.chunk.css.map": "/~411yello/oduconnectdev/static/css/2.67123b20.chunk.css.map",
+    "static/css/main.9a58775c.chunk.css.map": "/~411yello/oduconnectdev/static/css/main.9a58775c.chunk.css.map",
+    "static/js/2.afea2be1.chunk.js.LICENSE": "/~411yello/oduconnectdev/static/js/2.afea2be1.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.429fe1f5.js",
+    "static/css/2.67123b20.chunk.css",
+    "static/js/2.afea2be1.chunk.js",
+    "static/css/main.9a58775c.chunk.css",
+    "static/js/main.5f2679ef.chunk.js"
+  ]
+}
